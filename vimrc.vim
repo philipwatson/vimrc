@@ -7,6 +7,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()
 filetype plugin indent on
 " end vundle
