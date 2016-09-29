@@ -8,6 +8,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'elzr/vim-json'
 call vundle#end()
 filetype plugin indent on
 " end vundle
@@ -28,6 +29,7 @@ set splitright     " vertical split is left by default
 set splitbelow     " horizonal split is top by default
 
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab
 
 set backspace=indent,eol,start
 
