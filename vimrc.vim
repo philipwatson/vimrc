@@ -28,6 +28,8 @@ set hlsearch       " keep on showing all matches after /word [ENTER]
 set splitright     " vertical split is left by default
 set splitbelow     " horizonal split is top by default
 
+set belloff=all
+
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab
 
